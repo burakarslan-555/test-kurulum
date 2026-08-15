@@ -12,3 +12,4 @@ C:\Users\ekran\Desktop\projem\TestKurulum\obj\Debug\net10.0\refint\TestKurulum.d
 C:\Users\ekran\Desktop\projem\TestKurulum\obj\Debug\net10.0\TestKurulum.pdb
 C:\Users\ekran\Desktop\projem\TestKurulum\obj\Debug\net10.0\TestKurulum.genruntimeconfig.cache
 C:\Users\ekran\Desktop\projem\TestKurulum\obj\Debug\net10.0\ref\TestKurulum.dll
+C:\Users\ekran\Desktop\Projem\TestKurulum\obj\Debug\net10.0\TestKurulum.sourcelink.json
