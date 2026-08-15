@@ -1,2 +1,8 @@
-﻿Console.WriteLine("Merhaba, ben Burak. Hat44 basladi.");
-Console.WriteLine("Bugun: 15 Agustos 2026 - h1 Kapanis");
+﻿Console.WriteLine("Adin ne? ");
+string ad = Console.ReadLine();
+
+Console.Write("Kac yasindasin? ");
+int yas = int.Parse(Console.ReadLine());
+
+Console.WriteLine("Merhaba " + ad + "; " + yas + " yasindasin.");
+Console.WriteLine("Gelecek yil " + (yas + 1) + " olacaksin.");
