@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TestKurulum")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f168487c861b98be0c4f4cc242270977b4bad77d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d6835c38cfd3de82b0224ad4f835988010cdc082")]
 [assembly: System.Reflection.AssemblyProductAttribute("TestKurulum")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TestKurulum")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

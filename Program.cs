@@ -1,13 +1,14 @@
-﻿
-
-var ogrenciAdi = "Burak";
-var Ogrencisoyadi = "Arslan";
-var Ogrenciadsoyad = "Burak Arslan";
-var Ogrencinumarasi = "1000";
+﻿Console.Write("Adin ne?");
 
 
-Console.WriteLine(ogrenciAdi);
-Console.WriteLine(Ogrencisoyadi);
-Console.WriteLine(Ogrenciadsoyad);
-Console.WriteLine(Ogrencinumarasi);
+string ad = Console.ReadLine() ?? "";
+
+
+Console.Write("Kac yasindasin?");
+
+int yas = int.Parse(Console.ReadLine() ?? "0");
+
+
+
+Console.WriteLine("Merhaba  " + ad + " , " + yas +" yasindasin");
 
