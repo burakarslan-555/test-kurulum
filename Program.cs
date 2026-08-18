@@ -1,14 +1,5 @@
-﻿Console.Write("Adin ne?");
+﻿Console.Write("Kaç Fahrenheit ");
 
+double F = double.Parse(Console.ReadLine() ?? "");
 
-string ad = Console.ReadLine() ?? "";
-
-
-Console.Write("Kac yasindasin?");
-
-int yas = int.Parse(Console.ReadLine() ?? "0");
-
-
-
-Console.WriteLine("Merhaba  " + ad + " , " + yas +" yasindasin");
-
+Console.WriteLine( "Celsius : " + (F - 32) * 5.0 / 9.0 );
