@@ -1,5 +1,19 @@
-﻿Console.Write("Kaç Fahrenheit ");
+﻿string kursAdi =".NET ile C# Programlama Dili";
 
-double F = double.Parse(Console.ReadLine() ?? "");
+var karakterSayisi = kursAdi.Length;
+ Console.WriteLine("Kaç karakterden olusuyor? " + karakterSayisi);
+ 
+ var kucukHarf = kursAdi.ToLower();
+Console.WriteLine(kucukHarf);
 
-Console.WriteLine( "Celsius : " + (F - 32) * 5.0 / 9.0 );
+var baslama = kursAdi.StartsWith(".");
+Console.WriteLine(" . ile basliyor mu? " + baslama);
+
+var iceriyor = kursAdi.Contains("C#");
+Console.WriteLine("içeriyor mu? " + iceriyor);
+
+var replace = kursAdi.Replace("Dili", "Dersleri");
+Console.WriteLine(replace);
+
+var konum = kursAdi.IndexOf("C#");
+Console.WriteLine("C# bilgisi hangi konumda? " + konum);
